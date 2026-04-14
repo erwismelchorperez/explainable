@@ -1,0 +1,18 @@
+\section{Proposed explainable algorithm}\label{sec:explainablealgorithm}
+% No se comenta por qué se propone el nuevo algoritmo.
+% Ni que lo hace diferente a los que aparecen en el trabajo relacionado.
+% Además debería darse una explicación intuitiva de la idea del algoritmo.
+
+{\color{blue}
+     Current approaches for predicting credit risk achieve high levels of accuracy by applying techniques such as class balancing and feature selection to improve predictive performance. Recently, research has increasingly focused on explaining these predictions. Techniques such as SHAP and LIME attribute importance to individual features, but they do not indicate how these features interact in the prediction. This limitation highlights the need for algorithms that assess the contribution of each feature and explain predictions based on the interaction between these features.\\
+    
+        Therefore, we propose a pattern-based algorithm for predicting credit risk. Unlike other state-of-the-art algorithms, this algorithm allows predictions to be explained by identifying combinations of features (patterns). In this context, a pattern is a combination of appears frequently in a dataset \cite{gutierrez2015mining, jia2020exploiting}. \\
+    
+        The proposed algorithm consists of two stages. In the first stage, a state-of-the-art predictor is trained for credit risk prediction, and within each class (defaulters and non-defaulters), instances are clustered into groups to extract and filter patterns. The second stage focuses on building an explanation: when a new instance arrives, the algorithm predicts its class and then identifies the most similar group within that predicted class to generate an explanation based on the patterns of that group.\\
+    
+        In the initial stage, the proposed algorithm first employs an oversampling method specifically designed for mixed-data types to balance the dataset. Then, a state-of-the-art predictor tailored to handle such data is trained on the balanced dataset. This approach aims to mitigate the bias toward the majority class. The second process groups instances within each class into clusters to identify patterns within each cluster. A filtering procedure to eliminate redundancies, retaining only the most representative and frequent combinations of features that define each group.\\
+
+        The algorithm's second stage is dedicated to prediction and explainability. On receiving a new instance, the algorithm first predicts its class (defaulter or non-defaulter). It then identifies the most similar cluster within that predicted class. The final explanation is constructed from the most frequent and representative patterns of this matching cluster's training data and covers the new instance. A pattern is said to cover the instance if the combination of feature values it represents matches the instance’s characteristics. This approach explains the prediction through combinations of features that frequently appear in similar training instances.\\
+    
+        In summary, our proposed algorithm integrates a prediction stage that allows the use of the best-performing state-of-the-art credit risk predictor with a pattern-based explanation stage, which allows explaining the results of any predictor. This algorithm seeks to provide high predictive accuracy with explainability. Because it can incorporate different predictors, the algorithm remains flexible and adaptable to future advances in credit risk prediction.\\
+}
