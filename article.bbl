@@ -1,0 +1,2543 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{zhu2025hybrid}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=ZJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Jianxin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Xiong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YL}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Lean},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZJ+1}
+    \strng{fullhash}{ZJWXYLZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3846/tede.2025.23060
+    \endverb
+    \field{pages}{1\bibrangedash 33}
+    \field{title}{A hybrid clustering and boosting tree feature selection
+  (CBTFS) method for credit risk assessment with high-dimensionality}
+    \field{journaltitle}{Technological and Economic Development of Economy}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zhao2024improved}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZX}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Xiaosong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZQ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Qiangfu},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ZXLYZQ1}
+    \strng{fullhash}{ZXLYZQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2024.3487212
+    \endverb
+    \field{title}{Improved LightGBM for extremely imbalanced data and
+  application to credit card fraud detection}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2024}
+  \endentry
+
+  \entry{nguyen2025comparative}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=NN}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Nhat},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Duy},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{NNND1}
+    \strng{fullhash}{NNND1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/23322039.2025.2465971
+    \endverb
+    \field{number}{1}
+    \field{pages}{2465971}
+    \field{title}{Comparative analysis of boosting algorithms for predicting
+  personal default}
+    \field{volume}{13}
+    \field{journaltitle}{Cogent Economics \& Finance}
+    \field{year}{2025}
+  \endentry
+
+  \entry{weber2024applications}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=WP}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CKV}{%
+         family={Carl},
+         familyi={C\bibinitperiod},
+         given={K\bibnamedelima Valerie},
+         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Hinz},
+         familyi={H\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{WPCKVHO1}
+    \strng{fullhash}{WPCKVHO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11301-023-00320-0
+    \endverb
+    \field{number}{2}
+    \field{pages}{867\bibrangedash 907}
+    \field{title}{Applications of explainable artificial intelligence in
+  finance—a systematic review of finance, information systems, and computer
+  science literature}
+    \field{volume}{74}
+    \field{journaltitle}{Management Review Quarterly}
+    \field{year}{2024}
+  \endentry
+
+  \entry{yeo2025comprehensive}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=YWJ}{%
+         family={Yeo},
+         familyi={Y\bibinitperiod},
+         given={Wei\bibnamedelima Jie},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VDHW}{%
+         family={Van Der\bibnamedelima Heever},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+         given={Wihan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cambria},
+         familyi={C\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Satapathy},
+         familyi={S\bibinitperiod},
+         given={Ranjan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mengaldo},
+         familyi={M\bibinitperiod},
+         given={Gianmarco},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{YWJ+1}
+    \strng{fullhash}{YWJVDHWMRCESRMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10462-024-11077-7
+    \endverb
+    \field{number}{6}
+    \field{pages}{1\bibrangedash 49}
+    \field{title}{A comprehensive review on financial explainable AI}
+    \field{volume}{58}
+    \field{journaltitle}{Artificial Intelligence Review}
+    \field{year}{2025}
+  \endentry
+
+  \entry{lu2025llm}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Sichong},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chai},
+         familyi={C\bibinitperiod},
+         given={Jiahui},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YL}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Lean},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LS+2}
+    \strng{fullhash}{LSSYZXCJYL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.ipm.2025.104091
+    \endverb
+    \field{number}{4}
+    \field{pages}{104091}
+    \field{title}{LLM-infused bi-level semantic enhancement for corporate
+  credit risk prediction}
+    \field{volume}{62}
+    \field{journaltitle}{Information Processing \& Management}
+    \field{year}{2025}
+  \endentry
+
+  \entry{hartomo2025novel}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=HKD}{%
+         family={Hartomo},
+         familyi={H\bibinitperiod},
+         given={Kristoko\bibnamedelima Dwi},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Arthur},
+         familyi={A\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Nataliani},
+         familyi={N\bibinitperiod},
+         given={Yessica},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{HKDACNY1}
+    \strng{fullhash}{HKDACNY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2025.3541878
+    \endverb
+    \field{title}{A Novel Weighted Loss TabTransformer Integrating Explainable
+  AI for Imbalanced Credit Risk Datasets}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2025}
+  \endentry
+
+  \entry{yu2025hybrid}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=YT}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TX}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Duosi},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science San Francisco, CA USA}%
+    }
+    \strng{namehash}{YT+1}
+    \strng{fullhash}{YTHWTXZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1371/journal.pone.0316557
+    \endverb
+    \field{number}{1}
+    \field{pages}{e0316557}
+    \field{title}{A hybrid unsupervised machine learning model with spectral
+  clustering and semi-supervised support vector machine for credit risk
+  assessment}
+    \field{volume}{20}
+    \field{journaltitle}{PloS one}
+    \field{year}{2025}
+  \endentry
+
+  \entry{adiputra2025effectiveness}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=AINM}{%
+         family={Adiputra},
+         familyi={A\bibinitperiod},
+         given={I\bibnamedelima Nyoman\bibnamedelima Mahayasa},
+         giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=LPC}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Pei-Chun},
+         giveni={P\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wanchai},
+         familyi={W\bibinitperiod},
+         given={Paweena},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{AINMLPCWP1}
+    \strng{fullhash}{AINMLPCWP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/electronics14040697
+    \endverb
+    \field{number}{4}
+    \field{pages}{697}
+    \field{title}{The Effectiveness of Generative Adversarial Network-Based
+  Oversampling Methods for Imbalanced Multi-Class Credit Score Classification}
+    \field{volume}{14}
+    \field{journaltitle}{Electronics}
+    \field{year}{2025}
+  \endentry
+
+  \entry{ali2025explainable}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ASS}{%
+         family={Ali\bibnamedelima Shahee},
+         familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Shaukat},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Rujavi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{ASSPR1}
+    \strng{fullhash}{ASSPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/for.3252
+    \endverb
+    \field{title}{An Explainable ADASYN-Based Focal Loss Approach for Credit
+  Assessment}
+    \field{journaltitle}{Journal of Forecasting}
+    \field{year}{2025}
+  \endentry
+
+  \entry{kandi2025enhancing}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KK}{%
+         family={Kandi},
+         familyi={K\bibinitperiod},
+         given={Kianeh},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GDA}{%
+         family={Garc{\'\i}a-Dopico},
+         familyi={G\bibinithyphendelim D\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{KKGDA1}
+    \strng{fullhash}{KKGDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/make7010020
+    \endverb
+    \field{number}{1}
+    \field{pages}{20}
+    \field{title}{Enhancing Performance of Credit Card Model by Utilizing LSTM
+  Networks and XGBoost Algorithms}
+    \field{volume}{7}
+    \field{journaltitle}{Machine Learning and Knowledge Extraction}
+    \field{year}{2025}
+  \endentry
+
+  \entry{darwish2025intelligent}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DSM}{%
+         family={Darwish},
+         familyi={D\bibinitperiod},
+         given={Saad\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SAI}{%
+         family={Salama},
+         familyi={S\bibinitperiod},
+         given={Amr\bibnamedelima Ibrahim},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=EAA}{%
+         family={Elzoghabi},
+         familyi={E\bibinitperiod},
+         given={Adel\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{DSMSAIEAA1}
+    \strng{fullhash}{DSMSAIEAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41598-025-01223-8
+    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 19}
+    \field{title}{Intelligent approach to detecting online fraudulent trading
+  with solution for imbalanced data in fintech forensics}
+    \field{volume}{15}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2025}
+  \endentry
+
+  \entry{hu2025combining}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=HYH}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Ya-Han},
+         giveni={Y\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=TCF}{%
+         family={Tsai},
+         familyi={T\bibinitperiod},
+         given={Chih-Fong},
+         giveni={C\bibinithyphendelim F\bibinitperiod},
+      }}%
+      {{hash=WPT}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Pei-Ting},
+         giveni={P\bibinithyphendelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HYHTCFWPT1}
+    \strng{fullhash}{HYHTCFWPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10479-025-06706-5
+    \endverb
+    \field{pages}{1\bibrangedash 22}
+    \field{title}{Combining multiple data resampling methods and classifier
+  ensembles for better financial distress prediction: homogeneous and
+  heterogeneous approaches}
+    \field{journaltitle}{Annals of Operations Research}
+    \field{year}{2025}
+  \endentry
+
+  \entry{gasmi2025features}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=GI}{%
+         family={Gasmi},
+         familyi={G\bibinitperiod},
+         given={Ines},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Neji},
+         familyi={N\bibinitperiod},
+         given={Sana},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Smiti},
+         familyi={S\bibinitperiod},
+         given={Salima},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Soui},
+         familyi={S\bibinitperiod},
+         given={Makram},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{GI+1}
+    \strng{fullhash}{GINSSSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10796-024-10559-x
+    \endverb
+    \field{pages}{1\bibrangedash 20}
+    \field{title}{Features Selection for Credit Risk Prediction Problem}
+    \field{journaltitle}{Information Systems Frontiers}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zou2025variable}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=ZS}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Shujie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Zhiming},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Chiawei},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Zefeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Haohao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Ning},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ZS+2}
+    \strng{fullhash}{ZSCZCCZZCHSNRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10614-025-10943-y
+    \endverb
+    \field{pages}{1\bibrangedash 31}
+    \field{title}{Variable Selection and Fusion Sampling of Unbalanced Data in
+  Credit Risk Assessment}
+    \field{journaltitle}{Computational Economics}
+    \field{year}{2025}
+  \endentry
+
+  \entry{wang2024feature}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Huanjing},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Qianxin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=HJT}{%
+         family={Hancock},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima T},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=KTM}{%
+         family={Khoshgoftaar},
+         familyi={K\bibinitperiod},
+         given={Taghi\bibnamedelima M},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{WH+1}
+    \strng{fullhash}{WHLQHJTKTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1186/s40537‑024‑00905‑w
+    \endverb
+    \field{number}{1}
+    \field{pages}{44}
+    \field{title}{Feature selection strategies: a comparative analysis of
+  SHAP-value and importance-based methods}
+    \field{volume}{11}
+    \field{journaltitle}{Journal of Big Data}
+    \field{year}{2024}
+  \endentry
+
+  \entry{lin2025credit}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Shuoyan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Dandan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Boyi},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jiazhan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LS+1}
+    \strng{fullhash}{LSSDCBGXLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.engappai.2025.110236
+    \endverb
+    \field{pages}{110236}
+    \field{title}{Credit risk assessment of automobile loans using machine
+  learning-based SHapley Additive exPlanations approach}
+    \field{volume}{147}
+    \field{journaltitle}{Engineering Applications of Artificial Intelligence}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zhang2025method}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Yixiang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZYCLTY1}
+    \strng{fullhash}{ZYCLTY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.48550/arXiv.2502.19615
+    \endverb
+    \field{title}{A Method for Evaluating the Interpretability of Machine
+  Learning Models in Predicting Bond Default Risk Based on LIME and SHAP}
+    \field{journaltitle}{arXiv preprint arXiv:2502.19615}
+    \field{year}{2025}
+  \endentry
+
+  \entry{han2024nate}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Seongil},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jung},
+         familyi={J\bibinitperiod},
+         given={Haemin},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science San Francisco, CA USA}%
+    }
+    \strng{namehash}{HSJH1}
+    \strng{fullhash}{HSJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1371/journal.pone.0316454
+    \endverb
+    \field{number}{12}
+    \field{pages}{e0316454}
+    \field{title}{NATE: Non-pArameTric approach for Explainable credit scoring
+  on imbalanced class}
+    \field{volume}{19}
+    \field{journaltitle}{PloS one}
+    \field{year}{2024}
+  \endentry
+
+  \entry{chang2024prediction}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=CV}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=XQA}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Qianwen\bibnamedelima Ariel},
+         giveni={Q\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ASH}{%
+         family={Akinloye},
+         familyi={A\bibinitperiod},
+         given={Shola\bibnamedelima Habib},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={Vladlena},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVXQAASHBVHK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10479-024-06134-x
+    \endverb
+    \field{pages}{1\bibrangedash 25}
+    \field{title}{Prediction of bank credit worthiness through credit risk
+  analysis: an explainable machine learning study}
+    \field{journaltitle}{Annals of Operations Research}
+    \field{year}{2024}
+  \endentry
+
+  \entry{aruleba2024effective}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AI}{%
+         family={Aruleba},
+         familyi={A\bibinitperiod},
+         given={Idowu},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Yanxia},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AISY1}
+    \strng{fullhash}{AISY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2024.3445308
+    \endverb
+    \field{title}{Effective credit risk prediction using ensemble classifiers
+  with model explanation}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2024}
+  \endentry
+
+  \entry{zhang2025blockchain}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xinjian},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yuting},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xuefeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ruping},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IGI Global Scientific Publishing}%
+    }
+    \strng{namehash}{ZX+1}
+    \strng{fullhash}{ZXZYLXWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.4018/IJIIT.369153
+    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 24}
+    \field{title}{Blockchain-Based Intelligent Risk Management Decision Support
+  System for Supply Chain Financing}
+    \field{volume}{21}
+    \field{journaltitle}{International Journal of Intelligent Information
+  Technologies (IJIIT)}
+    \field{year}{2025}
+  \endentry
+
+  \entry{xia2025confidence}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=XM}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhijie},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lan},
+         familyi={L\bibinitperiod},
+         given={Xingyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Wanan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Jiawei},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{XM+1}
+    \strng{fullhash}{XMWZLXLWWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.engappai.2025.110278
+    \endverb
+    \field{pages}{110278}
+    \field{title}{Confidence-driven under-sampling decision forest for
+  imbalanced credit scoring}
+    \field{volume}{147}
+    \field{journaltitle}{Engineering Applications of Artificial Intelligence}
+    \field{year}{2025}
+  \endentry
+
+  \entry{wu2024credit}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=WC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Chenxi},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WC1}
+    \strng{fullhash}{WC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.54254/2755-2721/79/20241613
+    \endverb
+    \field{pages}{174\bibrangedash 181}
+    \field{title}{Credit risk unveiled: Decision trees triumph in comparative
+  machine learning study}
+    \field{volume}{79}
+    \field{journaltitle}{Applied and Computational Engineering}
+    \field{year}{2024}
+  \endentry
+
+  \entry{zou2025interpretable}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZY}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Yao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XM}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lan},
+         familyi={L\bibinitperiod},
+         given={Xingyu},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ZYXMLX1}
+    \strng{fullhash}{ZYXMLX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.chaos.2025.116216
+    \endverb
+    \field{pages}{116216}
+    \field{title}{Interpretable credit scoring based on an additive extreme
+  gradient boosting}
+    \field{volume}{194}
+    \field{journaltitle}{Chaos, Solitons \& Fractals}
+    \field{year}{2025}
+  \endentry
+
+  \entry{sowmiya2024credit}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Sowmiya},
+         familyi={S\bibinitperiod},
+         given={MN},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JSS}{%
+         family={Jaya\bibnamedelima Sri},
+         familyi={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=DS}{%
+         family={Deepshika},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=HDG}{%
+         family={Hanushya\bibnamedelima Devi},
+         familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMJSSDSHDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.36548/jscp.2024.3.004
+    \endverb
+    \field{number}{3}
+    \field{pages}{272\bibrangedash 283}
+    \field{title}{Credit Risk Analysis using Explainable Artificial
+  Intelligence}
+    \field{volume}{6}
+    \field{journaltitle}{Journal of Soft Computing Paradigm}
+    \field{year}{2024}
+  \endentry
+
+  \entry{ravi2025explainable}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=RV}{%
+         family={Ravi},
+         familyi={R\bibinitperiod},
+         given={Vishnu},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SVK}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={Vineet\bibnamedelima Kumar},
+         giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SMP}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Maninder\bibnamedelima Pal},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BRK}{%
+         family={Burila},
+         familyi={B\bibinitperiod},
+         given={Ravi\bibnamedelima Kumar},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kassetty},
+         familyi={K\bibinitperiod},
+         given={Nikhil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=VPN}{%
+         family={Vardhineedi},
+         familyi={V\bibinitperiod},
+         given={Padma\bibnamedelima Naresh},
+         giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=PVR}{%
+         family={Pasam},
+         familyi={P\bibinitperiod},
+         given={Venkata\bibnamedelima Reddy},
+         giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PNNI}{%
+         family={Prova},
+         familyi={P\bibinitperiod},
+         given={Nuzhat Noor\bibnamedelima Islam},
+         giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={De},
+         familyi={D\bibinitperiod},
+         given={Indrajit},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RV+1}
+    \strng{fullhash}{RVSVKSMPBRKKNVPNPVRPNNIDI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Explainable AI (XAI) for Credit Scoring and Loan Approvals}
+    \field{journaltitle}{arXiv}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zandi2025attention}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=ZS}{%
+         family={Zandi},
+         familyi={Z\bibinitperiod},
+         given={Sahab},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Korangi},
+         familyi={K\bibinitperiod},
+         given={Kamesh},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={{\'O}skarsd{\'o}ttir},
+         familyi={{\'O}\bibinitperiod},
+         given={Mar{\'\i}a},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Mues},
+         familyi={M\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bravo},
+         familyi={B\bibinitperiod},
+         given={Cristi{\'a}n},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ZS+1}
+    \strng{fullhash}{ZSKKOMMCBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.ejor.2024.09.025
+    \endverb
+    \field{number}{2}
+    \field{pages}{586\bibrangedash 599}
+    \field{title}{Attention-based dynamic multilayer graph neural networks for
+  loan default prediction}
+    \field{volume}{321}
+    \field{journaltitle}{European Journal of Operational Research}
+    \field{year}{2025}
+  \endentry
+
+  \entry{sun2025enhancing}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=SX}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Xinyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiayu},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SXLJZY1}
+    \strng{fullhash}{SXLJZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11518-025-5663-y
+    \endverb
+    \field{pages}{1\bibrangedash 22}
+    \field{title}{Enhancing Credit Risk Prediction through an Ensemble of
+  Explainable Model}
+    \field{journaltitle}{Journal of Systems Science and Systems Engineering}
+    \field{year}{2025}
+  \endentry
+
+  \entry{lundberg2017unified}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LSM}{%
+         family={Lundberg},
+         familyi={L\bibinitperiod},
+         given={Scott\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LSI}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Su-In},
+         giveni={S\bibinithyphendelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LSMLSI1}
+    \strng{fullhash}{LSMLSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A unified approach to interpreting model predictions}
+    \field{volume}{30}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ribeiro2016should}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=RMT}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={Marco\bibnamedelima Tulio},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Sameer},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Guestrin},
+         familyi={G\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMTSSGC1}
+    \strng{fullhash}{RMTSSGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 22nd ACM SIGKDD international
+  conference on knowledge discovery and data mining}
+    \verb{doi}
+    \verb 10.1145/2939672.2939778
+    \endverb
+    \field{pages}{1135\bibrangedash 1144}
+    \field{title}{" Why should i trust you?" Explaining the predictions of any
+  classifier}
+    \field{year}{2016}
+  \endentry
+
+  \entry{garcia2025machine}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=GCR}{%
+         family={Garc{\'\i}a-C{\'e}spedes},
+         familyi={G\bibinithyphendelim C\bibinitperiod},
+         given={Rub{\'e}n},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ACFJ}{%
+         family={Alias-Carrascosa},
+         familyi={A\bibinithyphendelim C\bibinitperiod},
+         given={Francisco\bibnamedelima J},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Moreno},
+         familyi={M\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{GCRACFJMM1}
+    \strng{fullhash}{GCRACFJMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/01605682.2025.2485263
+    \endverb
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{On Machine Learning models explainability in the banking
+  sector: the case of SHAP}
+    \field{journaltitle}{Journal of the Operational Research Society}
+    \field{year}{2025}
+  \endentry
+
+  \entry{baisholan2025fraudx}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=BN}{%
+         family={Baisholan},
+         familyi={B\bibinitperiod},
+         given={Nazerke},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DJE}{%
+         family={Dietz},
+         familyi={D\bibinitperiod},
+         given={J\bibnamedelima Eric},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gnatyuk},
+         familyi={G\bibinitperiod},
+         given={Sergiy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Turdalyuly},
+         familyi={T\bibinitperiod},
+         given={Mussa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MET}{%
+         family={Matson},
+         familyi={M\bibinitperiod},
+         given={Eric\bibnamedelima T},
+         giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Baisholanova},
+         familyi={B\bibinitperiod},
+         given={Karlygash},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{BN+1}
+    \strng{fullhash}{BNDJEGSTMMETBK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/computers14040120
+    \endverb
+    \field{number}{4}
+    \field{pages}{120}
+    \field{title}{FraudX AI: An Interpretable Machine Learning Framework for
+  Credit Card Fraud Detection on Imbalanced Datasets}
+    \field{volume}{14}
+    \field{journaltitle}{Computers}
+    \field{year}{2025}
+  \endentry
+
+  \entry{alonso2025should}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ARA}{%
+         family={Alonso-Robisco},
+         familyi={A\bibinithyphendelim R\bibinitperiod},
+         given={Andres},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={Carb{\'o}},
+         familyi={C\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima Manuel},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ARACJM1}
+    \strng{fullhash}{ARACJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10614-025-10855-x
+    \endverb
+    \field{pages}{1\bibrangedash 30}
+    \field{title}{Should We Trust the Credit Decisions Provided by Machine
+  Learning Models?}
+    \field{journaltitle}{Computational Economics}
+    \field{year}{2025}
+  \endentry
+
+  \entry{do2024explainable}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DTT}{%
+         family={Do},
+         familyi={D\bibinitperiod},
+         given={Thanh\bibnamedelima Thuy},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Babaei},
+         familyi={B\bibinitperiod},
+         given={Golnoosh},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pagnottoni},
+         familyi={P\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{DTTBGPP1}
+    \strng{fullhash}{DTTBGPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/15366367.2023.2261186
+    \endverb
+    \field{number}{4}
+    \field{pages}{315\bibrangedash 340}
+    \field{title}{Explainable machine learning for credit risk management when
+  features are dependent}
+    \field{volume}{22}
+    \field{journaltitle}{Measurement: Interdisciplinary Research and
+  Perspectives}
+    \field{year}{2024}
+  \endentry
+
+  \entry{bai2025improved}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=BL}{%
+         family={Bai},
+         familyi={B\bibinitperiod},
+         given={Lu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Xuezhou},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BLWX1}
+    \strng{fullhash}{BLWX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10614-025-10955-8
+    \endverb
+    \field{pages}{1\bibrangedash 34}
+    \field{title}{Improved Artificial Bee Colony Algorithm for Feature
+  Selection to Enhance the Prediction of Credit Risk in SMEs}
+    \field{journaltitle}{Computational Economics}
+    \field{year}{2025}
+  \endentry
+
+  \entry{dougan2025credit}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DM}{%
+         family={Do{\u{g}}an},
+         familyi={D\bibinitperiod},
+         given={Murat},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CKMA}{%
+         family={Chelery\bibnamedelima Komath},
+         familyi={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={Muhammed\bibnamedelima Aslam},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Sayilir},
+         familyi={S\bibinitperiod},
+         given={{\"O}zlem},
+         giveni={{\"O}\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{DMCKMASO1}
+    \strng{fullhash}{DMCKMASO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1186/s43093-025-00490-1
+    \endverb
+    \field{number}{1}
+    \field{pages}{79}
+    \field{title}{Credit rating prediction with ESG data using data mining
+  methods}
+    \field{volume}{11}
+    \field{journaltitle}{Future Business Journal}
+    \field{year}{2025}
+  \endentry
+
+  \entry{aruleba2025improved}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AI}{%
+         family={Aruleba},
+         familyi={A\bibinitperiod},
+         given={Idowu},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Yanxia},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AISY1}
+    \strng{fullhash}{AISY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2025.3563432
+    \endverb
+    \field{title}{An improved Ensemble Method with Data Resampling for Credit
+  Risk Prediction}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2025}
+  \endentry
+
+  \entry{yao2025novel}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=YG}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Gang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Xiaojian},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Pingfan},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific}%
+    }
+    \strng{namehash}{YG+1}
+    \strng{fullhash}{YGHXSPZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/S0219622025500403
+    \endverb
+    \field{title}{A novel class-imbalance-oriented feature selection method
+  based on BPNNs and AdaBoost for enterprise credit risk prediction in the
+  supply chain context}
+    \field{journaltitle}{International Journal of Information Technology \&
+  Decision Making}
+    \field{year}{2025}
+  \endentry
+
+  \entry{liang2025application}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LR}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Ruilin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Yuke},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={XiaoXuan},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific}%
+    }
+    \strng{namehash}{LR+1}
+    \strng{fullhash}{LRHYLXLBYX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/S0219467827500343
+    \endverb
+    \field{pages}{2750034}
+    \field{title}{The Application of Data Mining Models in Personal Credit Risk
+  Control}
+    \field{journaltitle}{International Journal of Image and Graphics}
+    \field{year}{2025}
+  \endentry
+
+  \entry{lu2025efficient}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Sichong},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xiaojun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YL}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Lean},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{LS+2}
+    \strng{fullhash}{LSZXSYLXYL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10479-025-06612-w
+    \endverb
+    \field{pages}{1\bibrangedash 38}
+    \field{title}{Efficient multimodal learning for corporate credit risk
+  prediction with an extended deep belief network}
+    \field{journaltitle}{Annals of Operations Research}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zeng2025nexus}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ZL}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LWY}{%
+         family={Lau},
+         familyi={L\bibinitperiod},
+         given={Wee-Yeap},
+         giveni={W\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ZLLWY1}
+    \strng{fullhash}{ZLLWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10690-025-09528-4
+    \endverb
+    \field{pages}{1\bibrangedash 29}
+    \field{title}{Nexus Between ESG Performance and Credit Risk in Chinese
+  FinTech Companies}
+    \field{journaltitle}{Asia-Pacific Financial Markets}
+    \field{year}{2025}
+  \endentry
+
+  \entry{zhou2025enhancing}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ZG}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Guanglan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shiru},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ZGWS1}
+    \strng{fullhash}{ZGWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2025.3530433
+    \endverb
+    \field{pages}{14239\bibrangedash 14251}
+    \field{title}{Enhancing Credit Risk Decision-Making in Supply Chain Finance
+  with Interpretable Machine Learning Model}
+    \field{volume}{13}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2025}
+  \endentry
+
+  \entry{oliveira2025advancing}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ONAd}{%
+         family={Oliveira},
+         familyi={O\bibinitperiod},
+         given={Naz{\'a}rio Augusto\bibnamedelima de},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=BLFC}{%
+         family={Basso},
+         familyi={B\bibinitperiod},
+         given={Leonardo Fernando\bibnamedelima Cruz},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \strng{namehash}{ONAdBLFC1}
+    \strng{fullhash}{ONAdBLFC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/risks13060116
+    \endverb
+    \field{title}{Advancing Credit Rating Prediction: The Role of Machine
+  Learning in Corporate Credit Rating Assessment}
+    \field{journaltitle}{Risks}
+    \field{year}{2025}
+  \endentry
+
+  \entry{lin2025deep}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LW}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Wangke},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LWLY1}
+    \strng{fullhash}{LWLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{title}{Deep Learning-Based Attention Mechanism Algorithm for
+  Blockchain Credit Default Prediction}
+    \field{volume}{16}
+    \field{journaltitle}{International Journal of Advanced Computer Science \&
+  Applications}
+    \field{year}{2025}
+  \endentry
+
+  \entry{sundaravadivel2025optimizing}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=SP}{%
+         family={Sundaravadivel},
+         familyi={S\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=IRA}{%
+         family={Isaac},
+         familyi={I\bibinitperiod},
+         given={R\bibnamedelima Augustian},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Elangovan},
+         familyi={E\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=KD}{%
+         family={KrishnaRaj},
+         familyi={K\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=RV}{%
+         family={Rahul},
+         familyi={R\bibinitperiod},
+         given={VV},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Raja},
+         familyi={R\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{SP+1}
+    \strng{fullhash}{SPIRAEDKDRVRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41598-025-00873-y
+    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{Optimizing credit card fraud detection with random forests
+  and SMOTE}
+    \field{volume}{15}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2025}
+  \endentry
+
+  \entry{kandi2025evaluating}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KK}{%
+         family={Kandi},
+         familyi={K\bibinitperiod},
+         given={Kianeh},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DAG}{%
+         family={Dopico},
+         familyi={D\bibinitperiod},
+         given={Antonio\bibnamedelima Garcia},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KKDAG1}
+    \strng{fullhash}{KKDAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.4114/intartif.vol28iss76pp66-84
+    \endverb
+    \field{number}{76}
+    \field{pages}{66\bibrangedash 84}
+    \field{title}{Evaluating the Performance of Deep Convolutional Neural
+  Networks and Support Vector Regression for Creditworthiness Prediction in the
+  Financial Sector}
+    \field{volume}{28}
+    \field{journaltitle}{Inteligencia Artificial}
+    \field{year}{2025}
+  \endentry
+
+  \entry{wang2025two}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Zecheng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Jingling},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xiaofang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Chong},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{WL+1}
+    \strng{fullhash}{WLYZMJCXWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/for.3288
+    \endverb
+    \field{title}{A Two-Stage Interpretable Model to Explain Classifier in
+  Credit Risk Prediction}
+    \field{journaltitle}{Journal of Forecasting}
+    \field{year}{2025}
+  \endentry
+
+  \entry{batista2004study}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BGE}{%
+         family={Batista},
+         familyi={B\bibinitperiod},
+         given={Gustavo\bibnamedelima EAPA},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PRC}{%
+         family={Prati},
+         familyi={P\bibinitperiod},
+         given={Ronaldo\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MMC}{%
+         family={Monard},
+         familyi={M\bibinitperiod},
+         given={Maria\bibnamedelima Carolina},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{BGEPRCMMC1}
+    \strng{fullhash}{BGEPRCMMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1145/1007730.100773
+    \endverb
+    \field{number}{1}
+    \field{pages}{20\bibrangedash 29}
+    \field{title}{A study of the behavior of several methods for balancing
+  machine learning training data}
+    \field{volume}{6}
+    \field{journaltitle}{ACM SIGKDD explorations newsletter}
+    \field{year}{2004}
+  \endentry
+
+  \entry{chawla2002smote}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CNV}{%
+         family={Chawla},
+         familyi={C\bibinitperiod},
+         given={Nitesh\bibnamedelima V},
+         giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=BKW}{%
+         family={Bowyer},
+         familyi={B\bibinitperiod},
+         given={Kevin\bibnamedelima W},
+         giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HLO}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Lawrence\bibnamedelima O},
+         giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=KWP}{%
+         family={Kegelmeyer},
+         familyi={K\bibinitperiod},
+         given={W\bibnamedelima Philip},
+         giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CNV+1}
+    \strng{fullhash}{CNVBKWHLOKWP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1613/jair.953
+    \endverb
+    \field{pages}{321\bibrangedash 357}
+    \field{title}{SMOTE: synthetic minority over-sampling technique}
+    \field{volume}{16}
+    \field{journaltitle}{Journal of artificial intelligence research}
+    \field{year}{2002}
+  \endentry
+
+  \entry{zou2025level}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ZY}{%
+         family={Zou},
+         familyi={Z\bibinitperiod},
+         given={Yao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Guanghua},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{ZYCG1}
+    \strng{fullhash}{ZYCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/sym17060914
+    \endverb
+    \field{number}{6}
+    \field{pages}{914}
+    \field{title}{Level-Wise Feature-Guided Cascading Ensembles for Credit
+  Scoring}
+    \field{volume}{17}
+    \field{journaltitle}{Symmetry}
+    \field{year}{2025}
+  \endentry
+
+  \entry{batista2003balancing}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{3}{}{%
+      {{hash=BGE}{%
+         family={Batista},
+         familyi={B\bibinitperiod},
+         given={Gustavo\bibnamedelima EAPA},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BAL}{%
+         family={Bazzan},
+         familyi={B\bibinitperiod},
+         given={Ana\bibnamedelima LC},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MMC}{%
+         family={Monard},
+         familyi={M\bibinitperiod},
+         given={Maria\bibnamedelima Carolina},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Macae}%
+    }
+    \strng{namehash}{BGEBALMMC+1}
+    \strng{fullhash}{BGEBALMMC+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{10\bibrangedash 18}
+    \field{title}{Balancing training data for automated annotation of keywords:
+  a case study.}
+    \field{volume}{3}
+    \field{journaltitle}{Wob}
+    \field{year}{2003}
+  \endentry
+
+  \entry{aruleba2025enhanced}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AI}{%
+         family={Aruleba},
+         familyi={A\bibinitperiod},
+         given={Idowu},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Yanxia},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AISY1}
+    \strng{fullhash}{AISY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.mlwa.2025.100692
+    \endverb
+    \field{pages}{100692}
+    \field{title}{Enhanced credit risk prediction using deep learning and
+  SMOTE-ENN resampling}
+    \field{volume}{21}
+    \field{journaltitle}{Machine Learning with Applications}
+    \field{year}{2025}
+  \endentry
+
+  \entry{damanik2025advanced}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=DN}{%
+         family={Damanik},
+         familyi={D\bibinitperiod},
+         given={Nurafni},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LCM}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Chuan-Ming},
+         giveni={C\bibinithyphendelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DNLCM1}
+    \strng{fullhash}{DNLCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2024
+    \endverb
+    \field{title}{Advanced Fraud Detection: Leveraging K-SMOTEENN and Stacking
+  Ensemble to Tackle Data Imbalance and Extract Insights}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2025}
+  \endentry
+
+  \entry{melchor2025oversampling}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=MPE}{%
+         family={Melchor-Pérez},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
+         given={Erwis},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MTJF}{%
+         family={Martínez-Trinidad},
+         familyi={M\bibinithyphendelim T\bibinitperiod},
+         given={José\bibnamedelima Fco.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=COJA}{%
+         family={Carrasco-Ochoa},
+         familyi={C\bibinithyphendelim O\bibinitperiod},
+         given={J.\bibnamedelima Ariel},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SAA}{%
+         family={Santiago-Alvarado},
+         familyi={S\bibinithyphendelim A\bibinitperiod},
+         given={Agustin},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MPE+1}
+    \strng{fullhash}{MPEMTJFCOJASAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1504/IJAPR.2025.10073009
+    \endverb
+    \field{note}{in press}
+    \field{title}{Oversampling and instance selection to predict credit risk}
+    \field{journaltitle}{International Journal of Applied Pattern Recognition}
+    \field{year}{2025}
+  \endentry
+
+  \entry{mukherjee2021smote}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=MM}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Mimi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Khushi},
+         familyi={K\bibinitperiod},
+         given={Matloob},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{MMKM1}
+    \strng{fullhash}{MMKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/asi4010018
+    \endverb
+    \field{number}{1}
+    \field{pages}{18}
+    \field{title}{SMOTE-ENC: A novel SMOTE-based method to generate synthetic
+  data for nominal and continuous features}
+    \field{volume}{4}
+    \field{journaltitle}{Applied system innovation}
+    \field{year}{2021}
+  \endentry
+
+  \entry{canete2022ft4cip}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CSL}{%
+         family={Canete-Sifuentes},
+         familyi={C\bibinithyphendelim S\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Monroy},
+         familyi={M\bibinitperiod},
+         given={Raul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MPMA}{%
+         family={Medina-Perez},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
+         given={Miguel\bibnamedelima Angel},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CSLMRMPMA1}
+    \strng{fullhash}{CSLMRMPMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.knosys.2022.109294
+    \endverb
+    \field{pages}{109294}
+    \field{title}{FT4cip: A new functional tree for classification in class
+  imbalance problems}
+    \field{volume}{252}
+    \field{journaltitle}{Knowledge-Based Systems}
+    \field{year}{2022}
+  \endentry
+
+  \entry{huang1997clustering}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=HZ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+    }
+    \strng{namehash}{HZ1}
+    \strng{fullhash}{HZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Clustering Large Data Sets With Mixed Numeric And Categorical
+  Values," Proceedings Of 1st Pacific-Asia Conference on Knowledge Discouvery
+  And Data Mining}
+    \field{year}{1997}
+  \endentry
+
+  \entry{huang1998extensions}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=HZ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Zhexue},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HZ2}
+    \strng{fullhash}{HZ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1023/A:1009769707641
+    \endverb
+    \field{number}{3}
+    \field{pages}{283\bibrangedash 304}
+    \field{title}{Extensions to the k-means algorithm for clustering large data
+  sets with categorical values}
+    \field{volume}{2}
+    \field{journaltitle}{Data mining and knowledge discovery}
+    \field{year}{1998}
+  \endentry
+
+  \entry{dinh2019estimating}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=DDT}{%
+         family={Dinh},
+         familyi={D\bibinitperiod},
+         given={Duy-Tai},
+         giveni={D\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fujinami},
+         familyi={F\bibinitperiod},
+         given={Tsutomu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HVN}{%
+         family={Huynh},
+         familyi={H\bibinitperiod},
+         given={Van-Nam},
+         giveni={V\bibinithyphendelim N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{DDTFTHVN1}
+    \strng{fullhash}{DDTFTHVN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Symposium on Knowledge and Systems
+  Sciences}
+    \verb{doi}
+    \verb 10.1007/978-981-15-1209-4_1
+    \endverb
+    \field{pages}{1\bibrangedash 17}
+    \field{title}{Estimating the optimal number of clusters in categorical data
+  clustering by silhouette coefficient}
+    \field{year}{2019}
+  \endentry
+
+  \entry{kuswardana2025comparison}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KDA}{%
+         family={Kuswardana},
+         familyi={K\bibinitperiod},
+         given={Dendy\bibnamedelima Arizki},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PDA}{%
+         family={Prasetya},
+         familyi={P\bibinitperiod},
+         given={Dwi\bibnamedelima Arman},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Trimono},
+         familyi={T\bibinitperiod},
+         given={Trimono},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DIGSM}{%
+         family={Diyasa},
+         familyi={D\bibinitperiod},
+         given={I\bibnamedelima Gede Susrama\bibnamedelima Mas},
+         giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KDA+1}
+    \strng{fullhash}{KDAPDATTDIGSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.21107/edutic.v12i1.29744
+    \endverb
+    \field{number}{1}
+    \field{pages}{43\bibrangedash 48}
+    \field{title}{Comparison of Elbow and Silhouette Methods in Optimizing
+  K-Prototype Clustering for Customer Transactions}
+    \field{volume}{12}
+    \field{journaltitle}{Jurnal Ilmiah Edutic: Pendidikan dan Informatika}
+    \field{year}{2025}
+  \endentry
+
+  \entry{loyola2017pbc4cip}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=LGO}{%
+         family={Loyola-Gonz{\'a}lez},
+         familyi={L\bibinithyphendelim G\bibinitperiod},
+         given={Octavio},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MPMA}{%
+         family={Medina-P{\'e}rez},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
+         given={Miguel\bibnamedelima Angel},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MTJF}{%
+         family={Mart{\'\i}nez-Trinidad},
+         familyi={M\bibinithyphendelim T\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima Fco},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=COJA}{%
+         family={Carrasco-Ochoa},
+         familyi={C\bibinithyphendelim O\bibinitperiod},
+         given={Jes{\'u}s\bibnamedelima Ariel},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Monroy},
+         familyi={M\bibinitperiod},
+         given={Ra{\'u}l},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GBM}{%
+         family={Garc{\'\i}a-Borroto},
+         familyi={G\bibinithyphendelim B\bibinitperiod},
+         given={Milton},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LGO+1}
+    \strng{fullhash}{LGOMPMAMTJFCOJAMRGBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.knosys.2016.10.018
+    \endverb
+    \field{pages}{100\bibrangedash 109}
+    \field{title}{PBC4cip: A new contrast pattern-based classifier for class
+  imbalance problems}
+    \field{volume}{115}
+    \field{journaltitle}{Knowledge-Based Systems}
+    \field{year}{2017}
+  \endentry
+
+  \entry{statlog_german_credit_data_144}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=HH}{%
+         family={Hofmann},
+         familyi={H\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HH1}
+    \strng{fullhash}{HH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{UCI Machine Learning Repository}
+    \field{note}{{DOI}: https://doi.org/10.24432/C5NC77}
+    \field{title}{{Statlog (German Credit Data)}}
+    \field{year}{1994}
+  \endentry
+\enddatalist
+\endinput
