@@ -16,11 +16,11 @@
        
        	For prediction, we propose using the FT4cip predictor \cite{canete2022ft4cip}, a tree-based predictor capable of handling mixed and imbalanced datasets, which has reported good results with this type of dataset making it suitable for credit risk prediction. To construct the explanation, we propose using contrast patterns extracted from similar instances within each class. However, instances within the same class may exhibit different combinations of feature values, forming distinct subgroups within the class. Therefore, we propose extracting contrast patterns from clusters generated within each class of the dataset, allowing the identification of patterns for each subgroup.\newline
        	
-       To generate clusters, we first split the dataset into classes (defaulter and non-defaulter). Within each class, we propose using the Kmodes algorithm \cite{huang1997clustering, huang1998extensions}. This choice is motivated by the need to group instances with similar feature-value combinations, particularly in mixed-type data. To determine the number of clusters in each class, we use the Silhouette coefficient \cite{dinh2019estimating, kuswardana2025comparison}, ensuring that the resulting clusters capture well-defined groupings within each class. This clustering step enables the extraction of contrast patterns that reflect localized structures within each class. \newline
+       To generate clusters, we first split the dataset into classes (defaulter and non-defaulter). Within each class, we propose using the Kmodes algorithm \cite{huang1997clustering, huang1998extensions}. This choice is motivated by the need to group instances with similar feature-value combinations, particularly in mixed-type data. To determine the number of clusters in each class, we propose the Silhouette coefficient \cite{dinh2019estimating, kuswardana2025comparison}, ensuring that the resulting clusters capture well-defined groupings within each class. This clustering step enables the extraction of contrast patterns that reflect localized structures within each class. \newline
        
-       	For mining contrast patterns, we use CPMining, introduced in the PBC4cip algorithm \cite{loyola2017pbc4cip}. This contrast pattern miner is supervised, meaning that it requires labeled data and explicitly exploits differences between classes to identify discriminative patterns. Thus, we propose applying it on each cluster of a given class against the other class, rather than using the entire class as a whole. This design choice is motivated by two main factors. First, by comparing each cluster against the opposite class, the extracted patterns remain class-discriminative, which is consistent with the supervised nature of the mining algorithm. Second, operating at the cluster level allows capturing more specific combinations of feature values that characterize subgroups within the class, instead of producing overly general patterns. As a result, the generated contrast patterns are both cluster-specific and class-discriminative, capturing more specific contrast patterns while maintaining explainability.\newline
+       	For mining contrast patterns, we propose using CPMining, introduced in the PBC4cip algorithm \cite{loyola2017pbc4cip}. This contrast pattern miner is supervised, meaning that it requires labeled data and explicitly exploits differences between classes to identify discriminative patterns. Thus, we propose applying it on each cluster of a given class against the other class, rather than using the entire class as a whole. This design choice is motivated by two main factors. First, by comparing each cluster against the opposite class, the extracted patterns remain class-discriminative, which is consistent with the supervised nature of the mining algorithm. Second, operating at the cluster level allows capturing more specific combinations of feature values that characterize subgroups within the class, instead of producing overly general patterns. As a result, the generated contrast patterns are both cluster-specific and class-discriminative, capturing more specific contrast patterns while maintaining explainability.\newline
        
-       	After mining, we propose a filtering process to remove redundant contrast patterns. Following the filtering strategy used in CPMining, redundancy is identified by comparing pairs of patterns based on their conditions. Given two patterns $P_{1}$ and $P_{2}$, $P_{1}$ is considered more general than $P_{2}$ if its set of conditions is a subset of those defining $P_{2}$, in which case $P_{2}$ is more specific. Applied at the cluster level, this process effectively removes redundant contrast patterns while preserving the most representative and informative ones, thereby enhancing the explainability of the extracted patterns and reducing their overall number.\newline
+       	After mining, we propose a filtering process to remove redundant contrast patterns. Following the filtering strategy used in CPMining, redundancy is identified by comparing pairs of contrast patterns based on their conditions. Given two contrast patterns $P_{1}$ and $P_{2}$, $P_{1}$ is considered more general than $P_{2}$ if its set of conditions is a subset of those defining $P_{2}$, in which case $P_{2}$ is more specific. Applied at the cluster level, this process effectively removes redundant contrast patterns while preserving the most representative and informative ones, thereby enhancing the explainability of the extracted patterns and reducing their overall number.\newline
        
        	For example, consider the next contrast patterns extracted from the German Credit Data dataset \cite{statlog_german_credit_data_144}:\newline
        
@@ -34,32 +34,32 @@
        	
        	Additionally, contrast patterns whose support in the opposite class is greater than zero are removed, ensuring that the final set contains only contrast patterns that characterize the cluster while distinguishing it from the other class.
         
-       %\subsection{Second stage}
-       %In the proposed algorithm, the prediction and explanation of a new instance are performed sequentially. Given a new instance $x$, the prediction stage predicts the credit risk class of $x$ (defaulter or non-defaulter). Once the class $c$ has been determined, only the clusters associated with that class are considered for explanation.\newline
+       \subsection{Second stage}
+       In the proposed algorithm, the prediction and explanation of a new instance are performed sequentially. Given a new instance $x$, the prediction stage predicts the credit risk class of $x$ (defaulter or non-defaulter). Once the class $c$ has been determined, only the clusters associated with that class are considered for explanation.\newline
        	
-       %To identify the cluster most similar to a new instance $x$, we define a contrast pattern-based similarity score between $x$ and each cluster $C_{c,j}$ associated with the predicted class $c$. The similarity score is defined in Equation~\ref{eq:cluster_similarity}.
+       To identify the cluster most similar to a new instance $x$, we define a contrast pattern-based similarity score between $x$ and each cluster $C_{c,j}$ associated with the predicted class $c$. The similarity score is defined in Equation~\ref{eq:cluster_similarity}.
        	
-       %\begin{equation}
-       %		Sim(x, C_{c,j})
-       %		=
-       %		\frac{
-       %			\sum\limits_{p \in \mathcal{P}{c,j}(x)} supp(p)
-       %		}{
-       %			\sum\limits{p \in \mathcal{P}_{c,j}} supp(p)
-       %		},
-       %		\label{eq:cluster_similarity}
-       %	\end{equation}
+       \begin{equation}
+       		Sim(x, C_{c,j})
+       		=
+       		\frac{
+       			\sum\limits_{p \in \mathcal{P}{c,j}(x)} supp(p)
+       		}{
+       			\sum\limits{p \in \mathcal{P}_{c,j}} supp(p)
+       		},
+       		\label{eq:cluster_similarity}
+       	\end{equation}
        	
-       %Let $\mathcal{P}{c,j}$ denote the set of contrast patterns extracted from cluster $C{c,j}$, and let $\mathcal{P}{c,j}(x) \subseteq \mathcal{P}{c,j}$ be the subset of patterns that cover the instance $x$. The term $supp(p)$ represents the support of pattern $p$ within cluster $C_{c,j}$.\newline
+       Let $\mathcal{P}{c,j}$ denote the set of contrast patterns extracted from cluster $C{c,j}$, and let $\mathcal{P}{c,j}(x) \subseteq \mathcal{P}{c,j}$ be the subset of patterns that cover the instance $x$. The term $supp(p)$ represents the support of pattern $p$ within cluster $C_{c,j}$.\newline
        	
-       %The similarity score is calculated as the sum of the supports of all contrast patterns in cluster $C_{c,j}$ that cover the instance $x$, divided by the total support of all contrast patterns extracted from that cluster. The cluster with the highest similarity score is selected as the most similar to the instance. Finally, an explanation is generated by selecting a representative contrast pattern from the pattern set of the selected cluster.\newline
+       The similarity score is calculated as the sum of the supports of all contrast patterns in cluster $C_{c,j}$ that cover the instance $x$, divided by the total support of all contrast patterns extracted from that cluster. The cluster with the highest similarity score is selected as the most similar to the instance. Finally, an explanation is generated by selecting a representative contrast pattern from the pattern set of the selected cluster.\newline
        	
-       %Once the most similar cluster $C_{c,j}$ has been identified, the explanation for the prediction is derived exclusively from this cluster. Let $\mathcal{P}_{c,j}(x)$ denote the set of all contrast patterns extracted from $C_{c,j}$ that cover the instance $x$. From this subset, the algorithm selects a pattern $p$ with the highest support, as defined in Equation \ref{eq:pattern_selection}.
+       Once the most similar cluster $C_{c,j}$ has been identified, the explanation for the prediction is derived exclusively from this cluster. Let $\mathcal{P}_{c,j}(x)$ denote the set of all contrast patterns extracted from $C_{c,j}$ that cover the instance $x$. From this subset, the algorithm selects a pattern $p$ with the highest support, as defined in Equation \ref{eq:pattern_selection}.
        	
-       %\begin{equation}
-       %		p^* = \arg\max_{p \in \mathcal{P}_{c,j^*}(x)} supp(p),
-       %		\label{eq:pattern_selection}
-       %	\end{equation}
+       \begin{equation}
+       		p^* = \arg\max_{p \in \mathcal{P}_{c,j^*}(x)} supp(p),
+       		\label{eq:pattern_selection}
+       	\end{equation}
        	
-       %The selected pattern $p^*$ constitutes the final explanation of the prediction. This contrast pattern serves as the most representative and discriminative description of the instance within the selected cluster, as it maximizes support among all patterns covering the instance.
+       The selected pattern $p^*$ constitutes the final explanation of the prediction. This contrast pattern serves as the most representative and discriminative description of the instance within the selected cluster, as it maximizes support among all patterns covering the instance.
     }
